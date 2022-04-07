@@ -1,8 +1,8 @@
 
-var peel = 'Summer Flowers are one of the most incredible creations of God that are precious to nature. The beauty of blossoms is not only admired in nature but also considered as a token of love and a word of expressing the utmost emotion. It is believed that flowers are a better conveyer of many unspoken words. And it is the reason why blooms are vital parts of every special occasion from birthdays till the funeral. There is an enormous range of  Flower varieties available in the markets.'
+var peel = 'Summer Flowers are one of the most incredible creations of God that are precious to nature. The beauty of blossoms is not only admired in nature but also considered as a token of love and a word of expressing the utmost emotion. It is believed that flowers are a better conveyer of many unspoken words. And it is the reason why blooms are vital parts of every special occasion from birthdays till the funeral. There is an enormous range of Summer Flower varieties available in the markets.'
 document.getElementById('remo').innerHTML = peel;
-
-var texto = peel.replace('Summer','Winter');
+b='Winter'
+var texto = peel.replace(/Summer/g,b); 
  document.getElementById('kemo').innerHTML = texto;
 
 
