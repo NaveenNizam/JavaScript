@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+header {
+    text-align: center;
+    background-color: rgb(48, 46, 46);
+    margin-top: -8px;
+    padding: 7px;
+}
+.head a {
+    text-decoration: none;
+    color: rgb(233, 225, 225);
+    font-size: x-small;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.head :hover { color: white;
+}
+.shop :hover {text-decoration: underline;}
+.lin {text-decoration: none;}
+.shop {
+    background-color: #ebebee;
+    margin: 0px;
+    font-size: x-small;
+    text-align: center;
+    padding: 10px;
+}
+
+.pro {
+    line-height: 0.7;
+    padding: 30px;
+    height: 735px;
+    background-color: whitesmoke;
+    cursor: pointer;  
+    position: relative; /* Relative here work as a parent container */
+}
+.pro p {
+    margin: 10px;
+}
+.link a {
+    text-decoration: none;
+    font-size: 13px;
+    margin: 20px;
+    color: rgb(109, 109, 241);
+}
+.link :hover { text-decoration: underline;}
+.img1 {
+    width: 380px;
+    padding: 40px;
+    cursor: pointer;
+}
+.act {
+    width: 100%;
+    height: 408px;
+    padding-top: 20px;
+    position: absolute; /* Absolute works with the main screen */
+    top: 450px;
+    cursor: pointer;
+    background-color: #eeeffe;
+}
+.apple { width: 11%;}
+.img2 {
+    width: 700px;
+    height: 228px;
+    cursor: pointer;
+}
+.ab {
+    width: 100%;
+    margin-top: 10px;
+}
+.super {  /* iPhone 13 */
+    background-color: #35283c;
+    width: 100%;
+}
+.img3 {  /* iPhone 13 img*/
+    width: 70%;
+    padding-top: 20px;
+}
+.super h1 {   /* heading of iPhone 13*/
+    color: white;
+    padding-top: 50px;
+    line-height: 0%;
+}
+.super p {     /* iPhone para*/
+    color: rgb(212, 152, 162);
+    margin-top: 12px;
+}
+.watch {     /*div of watch */
+    width: 100%;
+    background-color: whitesmoke;
+    margin-top: 0px;
+}
+.new {     /* NEW */
+    font-size: xx-small;
+    color: rgb(250, 57, 57);
+    padding-top: 20px;
+}
+.watch h3 { text-transform: uppercase;
+    margin-top: 0px;
+    font-size: 30px;
+    margin-bottom: -13px;
+}
+.series { 
+    color: crimson;   /* Series 7*/
+    text-transform: uppercase;
+    font-size: 13px; 
+    margin-top: 15px;
+
+}
+.img4 {    /* watch img*/
+    width: 640px;
+    margin-top: 20px;
+}
+.macfit { display: inline-block;}/* div of macbook and fitness*/
+.mac {         /* div of MacBook */
+    width: 49%;
+    position: absolute;
+    right: 0px;
+    background-color: rgb(247, 247, 247, 0.6);
+    height: 400px;
+    margin-left: 70px;
+}
+.mac h2 { margin-top: 25px;}
+.mac p{ font-size: 0.9em;
+     margin-bottom: 13px;
+     color: rgb(82, 80, 80);
+    }
+.img5 {  /* macbook img */
+    width: 350px;
+    padding-top: 40px;
+}
+#fitness {    /* div of ftness*/
+    width: 50%;
+    height: 397px;
+    position: absolute;
+    left: 0px;
+    background-color: #f0f0f0;
+    
+}
+#fitness h2 {  /* heading FITNESS */
+      margin-top: 25px;
+}
+#fitness p {   /* after FITNESS para*/
+      font-size: 0.85em;
+      color: rgb(82, 80, 80);
+      margin-top: 10px;
+}
+.lik a {  /* Link */
+    font-size: 0.7em; text-decoration: none; color: rgb(109, 109, 241);
+}
+.lik :hover {text-decoration: underline;}
+.img6 {  /* fitness img */
+    width: 80%;
+    left: 0;
+    position: absolute;
+    top: 150px;
+    
+}
+.airho {    /* div of AirPod & HomePod*/
+     display: inline-flex;
+     margin-top: -15px;
+}
+.airpod {
+    position: absolute;
+    width: 49%;
+}
+.spatial h1{   /* AirPod heading */
+    position: absolute;
+    top: 670px;
+    left: 150px;
+}
+.spatial p {   /* para */
+    position: absolute;
+    white-space: nowrap;
+    left: 120px;
+    top: 730px;
+    color: rgb(82, 80, 80);
+    font-size: 0.9em;
+}
+.spatial a {   /* link */
+    text-decoration: none;
+    position: absolute;
+    top: 780px;
+    white-space: nowrap;
+    font-size: 0.7em;
+    left: 150px;
+    color: royalblue;
+    line-height: 0;
+}
+.img7 {   /*airpod img */
+    width: 380px;
+    height: 400px;
+    left: 0;
+    top: 418px;
+    position: absolute;
+}
+.homie {
+    position: absolute; 
+    width: 50%;
+}
+.img8{ /* HomePod Mini */
+    position: absolute;
+    left: 390px;
+    width: 380px;
+    height: 400px;
+    top: 418px;
+}
+.hom {    /* heading */
+    position: absolute;
+    top: 450px;
+    left: 500px;
+    white-space: nowrap;
+}
+.learn {  /* Link */
+    position: absolute;
+    top: 490px;
+    left: 530px;
+    color: rgb(80, 78, 207);
+    text-decoration: none;
+    font-size: 0.7em;
+    line-height: 0;
+    white-space: nowrap;
+}
+.cardtv { display: inline-block;}
+.card { position: relative;  }
+.img9 { /* card pic*/
+    position: absolute;
+    width: 385px;
+    height: 380px;
+    top: 810px;
+}
+.card h2{
+    position: absolute;
+    top: 830px;
+    left: 170px;
+    background: -webkit-linear-gradient( 45deg, rgb(247, 18, 18), rgb(193, 19, 199), rgb(47, 47, 185)); opacity: 0.9;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.card p {
+    position: absolute;
+    white-space: nowrap;
+    margin-top: 10px;
+}
+.save {   /* para */
+    top: 850px;
+    left: 80px;
+    color: rgb(77, 72, 72);
+    font-size: 0.85em; 
+}
+.only{   /* para */
+    font-size: 0.75em;
+    color: rgb(116, 113, 113);
+    top: 900px;
+    left: 80px;
+    line-height: 0;
+}
+.card a {   /* link*/
+    position: absolute;
+    top: 950px;
+    color: royalblue;
+    white-space: nowrap;
+    text-decoration: none;
+    font-size: 00.7em;
+    left: 130px;
+    line-height: 0;
+ }
+.tv { position: relative;}
+
+.img10 { /* tv+ pic*/
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    top: 810px;
+    left: 391px; 
+}
+.tv h1 {
+    position: absolute;
+    left: 570px;
+    top: 830px;
+    color: rgb(63, 63, 63);
+}
+.find {   /* tv 2nd last line*/
+    position: absolute;
+    top: 1145px;
+    left: 520px;
+    white-space: nowrap;
+}
+.now { /*tv last line */
+    position: absolute;
+    top: 1160px;
+    left: 550px;
+    white-space: nowrap;
+    font-size: 0.75em;
+    line-height: 2.5;
+    color: rgb(32, 32, 32);
+}
+.el {   /* El Deafo */
+    position: absolute;
+    top: 1077px;
+    width: 170px;
+    height: 60px;
+    left: 500px;
+}
+.follow { /*  last div*/
+    position: relative;
+    top: 1125px;
+    font-size: 00.48em;
+    background-color: whitesmoke;
+}
+.subs { /* last div 1st line*/
+    margin: 70px;
+    padding-top: 10px;
+    color: rgb(56, 55, 55); 
+}    
+.music {  /* last div para */
+    line-height: 2.3;
+}
+.other { /* link */
+    text-decoration: none;
+    color: royalblue;
+    font-weight: bold;
+}
+.Us {
+    text-decoration: none;
+    color: rgb(61, 59, 59);
+    position: relative;
+    left: 640px;
+    bottom: 18px;
+}
+.US :hover {
+    text-decoration: underline;
+}
+li a{
+    text-decoration: none;
+    color: black; 
+    line-height: 15px;
+} 
+/* here all about last links */
+.class { padding-top: 10px; padding-bottom: 30px;}
+li :hover { text-decoration: underline;}
+ li { list-style: none;
+       color: rgb(117, 115, 115);}
+.first {position: absolute;}
+.second {
+    position: relative; 
+    left: 110px;
+}
+.rd {
+    position: relative;
+    top: 10px;   left: 110px;
+}
+.th {
+    position: absolute;
+    left: 300px;
+    bottom: 165px;
+}
+.fifth {
+    position: absolute;
+    left: 450px;
+    bottom: 89px;
+}
+.sixth {
+    position: absolute;
+    left: 600px;
+    bottom: 74px;
+}
+
+
+
+
+
