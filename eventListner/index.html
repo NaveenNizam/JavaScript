@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .outer{
+        width: 500px;
+        height: 400px;
+        background-color: blue;
+       
+    }
+    .outer >h1 {
+        padding-top: 10px;
+        
+    }
+    .inner{
+        width: 200px;
+        height: 150px;
+        background: rgb(239, 75, 75);
+        padding: 50px;
+    }
+</style>
+<body>
+    <center>
+        <h1></h1>
+        <h2 id="main" class="abc">Events ->Click</h2>
+        <div class="outer"><h1>Outer</h1>
+        <div class="inner">
+            <h1>Inner</h1>
+            <p>Capture(true in parent) to run parent first</p> 
+        </div>
+    </div>
+    
+        <script src="./js.js"></script>
+    </center>
+</body>
+</html>
