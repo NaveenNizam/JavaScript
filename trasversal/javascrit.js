@@ -34,7 +34,7 @@ document.querySelector("#outer").parentElement.style.fontSize = "80px"
 document.querySelector("#inner").parentElement.style.fontSize = "50px"
 
 document.querySelector("#outer").firstElementChild.style.fontSize = "30px"
-document.querySelector("#inner").lastElementChild.style.textDecoration  = "underline"
+document.querySelector("#inner").lastElementChild.style.textDecoration  =  "underline"
 document.querySelector("#inner").lastElementChild.style.textDecorationColor  = "black"
 
 document.querySelector("#outer").parentElement.style.color= "blue"
